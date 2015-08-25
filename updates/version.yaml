@@ -1,0 +1,9 @@
+1.0.1:
+    - First version of Catalogo.
+    - create_servicos_table.php
+1.0.2:
+    - Criar tabela de tipos de serviço.
+    - create_tipo_servicos_table.php
+1.0.3:
+    - Adicionar foreign key para relação servico/tipo_servico.
+    - add_fk_tipo_servicos.php

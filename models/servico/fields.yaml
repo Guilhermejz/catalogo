@@ -1,0 +1,49 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        nome:
+            label: Nome
+            tab: Principal
+            span: left
+            placeholder: Digite o nome do serviço
+
+        escopo:
+            label: Escopo
+            tab: Principal
+            type: richeditor
+            size: small
+
+        descricao:
+            label: Descrição
+            tab: Principal
+            type: richeditor
+            size: huge
+
+        ordem:
+            label: Ordem
+            tab: Principal
+            type: number
+            span: left
+            size: tiny
+            placeholder: Ordem de importância do serviço (1 a 100)
+
+        endereco_web:
+            label: Endereco web
+            tab: Detalhes
+            span: left
+            placeholder: ex. http://exemplo.com
+
+        orgao_responsavel:
+            label: Orgao responsável
+            tab: Detalhes
+            span: left
+            placeholder: ex. SEAB
+
+        base_legal:
+            label: Base legal
+            tab: Detalhes
+            span: left
+            type: richeditor

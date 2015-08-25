@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Tipo Servico
+
+# Model Form Field configuration
+form: $/celepar/catalogo/models/tiposervico/fields.yaml
+
+# Model Class name
+modelClass: Celepar\Catalogo\Models\TipoServico
+
+# Default redirect location
+defaultRedirect: celepar/catalogo/tiposervico
+
+# Create page
+create:
+    title: Create Tipo Servico
+    redirect: celepar/catalogo/tiposervico/update/:id
+    redirectClose: celepar/catalogo/tiposervico
+
+# Update page
+update:
+    title: Edit Tipo Servico
+    redirect: celepar/catalogo/tiposervico
+    redirectClose: celepar/catalogo/tiposervico
+
+# Preview page
+preview:
+    title: Preview Tipo Servico

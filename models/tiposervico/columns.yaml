@@ -1,0 +1,18 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    tipo:
+        label: Tipo
+        searchable: true
+
+    parent_id:
+        label: Tipo pai
+        relation: parent
+        select: tipo
+        default: não tem
+
+    ordem:
+        label: Ordem
+        type: number

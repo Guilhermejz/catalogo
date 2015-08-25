@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    tipo:
+        label: Tipo de serviço
+        span: left
+        placeholder: Digite o nome do tipo de serviço
+
+    parent:
+        label: Serviço principal
+        span: left
+        type: relation
+        nameFrom: tipo
+        placeholder: Selecione
+        emptyOption: -- Nenhum tipo pai --
+
+    ordem:
+        label: Ordem
+        type: number
+        span: left
+        size: tiny
+        placeholder: Ordem de importância do tipo de serviço (1 a 100)

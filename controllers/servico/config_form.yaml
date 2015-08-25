@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Servico
+
+# Model Form Field configuration
+form: $/celepar/catalogo/models/servico/fields.yaml
+
+# Model Class name
+modelClass: Celepar\Catalogo\Models\Servico
+
+# Default redirect location
+defaultRedirect: celepar/catalogo/servico
+
+# Create page
+create:
+    title: Criar serviço
+    redirect: celepar/catalogo/servico/update/:id
+    redirectClose: celepar/catalogo/servico
+
+# Update page
+update:
+    title: Editar serviço
+    redirect: celepar/catalogo/servico
+    redirectClose: celepar/catalogo/servico
+
+# Preview page
+preview:
+    title: Pré-visualizar serviço
